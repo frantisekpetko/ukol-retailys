@@ -1,0 +1,81 @@
+.center {
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.logo {
+    animation: logo-spin infinite 1.25s linear;
+    background-color: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 10rem;
+    width: 10rem;
+    z-index: 20;
+}
+
+
+.header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    -webkit-transition: transform 0.5s ease-in-out;
+}
+
+
+.author {
+    color: cyan;
+    font-size: 1.25rem;
+}
+
+@keyframes logo-spin {
+    0% {
+        -moz-transform: scale(0.85);
+        -webkit-transform: scale(0.85);
+        -o-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        transform: scale(0.85);
+        background: rgba(254,0,50,0.50);
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    25% {
+        -moz-transform: scale(0.55);
+        -webkit-transform: scale(0.55);
+        -o-transform: scale(0.55);
+        -ms-transform: scale(0.55);
+        transform: scale(0.55);
+        background: rgba(39,62,84,0.82);
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    50% {
+        -moz-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        -o-transform: scale(0.75);
+        -ms-transform: scale(0.75);
+        transform: scale(0.75);
+        background: rgba(254,0,50,0.50);
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    100% {
+        -moz-transform: scale(0.85);
+        -webkit-transform: scale(0.85);
+        -o-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        transform: scale(0.85);
+        background: rgba(39,62,84,0.82);
+        overflow: hidden;
+        z-index: 2;
+    }
+}
+
+
+
